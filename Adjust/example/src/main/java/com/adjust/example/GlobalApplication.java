@@ -43,7 +43,6 @@ public class GlobalApplication extends Application {
 
         Adjust.onCreate(config);
 
-
         // register onResume and onPause events of all activities
         // for applications with minimum support of Android v4 or greater
         //registerActivityLifecycleCallbacks(new AdjustLifecycleCallbacks());
